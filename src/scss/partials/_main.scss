@@ -36,7 +36,7 @@
         width: $first-width;
         @include centerPosition();
         img{
-            @include image(600px, contain);
+            @include image(600px);
         }
     }
 }
@@ -64,7 +64,7 @@
                 display: flex;
                 flex-direction: column;
                 img{
-                    @include image(150px, contain);
+                    @include image(150px);
                 }
             }
         }
@@ -72,7 +72,7 @@
             @include sizes(250px, 300px);
             margin-bottom: 100px;
             img{
-                @include image(250px, contain);
+                @include image(250px);
             }
         }
     }
@@ -94,7 +94,7 @@
         .image-data{
             width: 50%;
             img{
-                @include image(600px, contain);
+                @include image(600px);
             }
         }
         .text{
@@ -110,7 +110,7 @@
                 float: left;
             }
             img{
-                @include image(250px, contain);
+                @include image(250px);
             }
         }
     }
@@ -141,7 +141,7 @@
                 width: 150px;
                 float: left;
                 img{
-                    @include image(50px, contain);
+                    @include image(50px);
                     margin-top: 20px;
                     margin-left: 5px;
                 }

@@ -1,4 +1,4 @@
-@mixin image($size, $object){
+@mixin image($size, $object:contain){
     height:$size;
     width:$size;
     object-fit: $object;
