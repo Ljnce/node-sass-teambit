@@ -16,7 +16,7 @@
   align-items: center;
   justify-content: center;
   height: 40px;
-  width: 100px;
+  width: 200px;
   border-radius: 10px;
   cursor: pointer;
 }
@@ -34,6 +34,7 @@
 }
 
 .btn-nav {
+  width: 100px;
   border: 1px solid black;
 }
 
@@ -115,6 +116,11 @@ ul li:hover {
 .fourth-container h3,
 .fourth-container h4 {
   margin-bottom: 20px;
+}
+
+.or {
+  display: flex;
+  align-items: center;
 }
 
 /* HEADER */
@@ -358,7 +364,7 @@ header #navbar .right ul li {
 }
 
 .five .container-five .empty-container .profile-team-name {
-  width: 150px;
+  width: 130px;
   float: left;
   margin-top: 15px;
 }
@@ -368,7 +374,7 @@ header #navbar .right ul li {
 }
 
 .five .container-five .button-bottom {
-  width: 300px;
+  width: 450px;
   display: flex;
   flex-direction: row;
 }

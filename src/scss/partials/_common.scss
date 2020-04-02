@@ -5,7 +5,7 @@
     align-items: center;
     justify-content: center;
     height: 40px;
-    width: 100px;
+    width: 200px;
     border-radius: 10px;
     cursor: pointer;
     i{
@@ -15,6 +15,7 @@
         color: $border-color;
     }
     &-nav{
+        width:100px;
         border:1px solid black;
         @extend.btn;
         &:hover{
@@ -96,4 +97,9 @@ ul{
     h4{
         margin-bottom: 20px;
     }
+}
+
+.or{
+    display: flex;
+    align-items: center;
 }
