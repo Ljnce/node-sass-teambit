@@ -154,7 +154,6 @@ header #navbar .right ul li {
   display: flex;
   align-items: center;
   flex-wrap: wrap;
-  justify-content: flex-start;
 }
 
 .first .left-first h1 {
@@ -168,6 +167,7 @@ header #navbar .right ul li {
 .first .left-first .button {
   display: flex;
   flex-direction: row;
+  margin: 0;
 }
 
 .first .left-first .button .btn,
