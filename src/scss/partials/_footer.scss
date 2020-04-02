@@ -1,6 +1,6 @@
 footer{
     .our-choice{
-        height: 450px;
+        height: 350px;
         display: flex;
         align-items: flex-start;
         margin-top: 80px;
@@ -36,6 +36,16 @@ footer{
                     }
                 }
             }
+        }
+    }
+    .chat-icon{
+        i{
+            font-size: 80px;
+            color: $btn-first-color;
+            margin-right: 40px;
+            position: fixed;
+            bottom: 5%;
+            right: 0;
         }
     }
 }
