@@ -1,3 +1,5 @@
+/* Reset */
+
 * {
   margin: 0 auto;
   padding: 0;
@@ -93,6 +95,14 @@ ul li:hover {
   color: #0e2055;
 }
 
+.arrow {
+  cursor: pointer;
+}
+
+.arrow:hover {
+  color: #30488f;
+}
+
 .single-image {
   margin-bottom: 40px;
 }
@@ -111,7 +121,7 @@ ul li:hover {
 
 header #navbar {
   height: 70px;
-  width: 1300px;
+  width: 100vw;
   background-color: white;
   border: 1px solid #ededed;
   border-style: hidden hidden solid hidden;
@@ -120,7 +130,6 @@ header #navbar {
   justify-content: space-between;
   position: fixed;
   top: 0;
-  width: 100%;
 }
 
 header #navbar .left {
@@ -143,6 +152,7 @@ header #navbar .right ul li {
 
 .first {
   height: 600px;
+  width: 100vw;
   display: flex;
   flex-direction: row;
   background-color: white;
@@ -205,7 +215,7 @@ header #navbar .right ul li {
 
 .second,
 .third {
-  height: 700px;
+  height: 800px;
   background-color: #ffe7d2;
   display: flex;
   justify-content: center;
@@ -266,6 +276,7 @@ header #navbar .right ul li {
 .third .third-container .single-image {
   height: 250px;
   width: 300px;
+  margin-bottom: 100px;
 }
 
 .second .second-container .single-image img,
@@ -349,6 +360,11 @@ header #navbar .right ul li {
 .five .container-five .empty-container .profile-team-name {
   width: 150px;
   float: left;
+  margin-top: 15px;
+}
+
+.five .container-five .empty-container .profile-team-name .name {
+  color: #30488f;
 }
 
 .five .container-five .button-bottom {
@@ -380,6 +396,15 @@ footer .our-choice .teambit {
 
 footer .our-choice .teambit img {
   width: 100px;
+}
+
+footer .our-choice .teambit .first-word {
+  color: #30488f;
+  text-decoration: none;
+}
+
+footer .our-choice .teambit .first-word:hover {
+  text-decoration: underline;
 }
 
 footer .our-choice .choice-list {

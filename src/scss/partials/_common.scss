@@ -76,6 +76,13 @@ ul{
     }
 }
 
+.arrow{
+    cursor:pointer;
+    &:hover{
+        color:$btn-first-color;
+    }
+}
+
 .single-image{
     margin-bottom: 40px;
 }

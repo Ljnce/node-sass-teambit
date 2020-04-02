@@ -12,6 +12,13 @@ footer{
             img{
                 width:100px;
             }
+            .first-word{
+                color:$btn-first-color;
+                text-decoration: none;
+                &:hover{
+                    text-decoration: underline;
+                }
+            }
         }
         .choice-list{
             width: $footer-width-right;

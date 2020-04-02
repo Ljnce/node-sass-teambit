@@ -1,5 +1,6 @@
 .first{
     height: 600px;
+    width: 100vw;
     display: flex;
     flex-direction: row;
     background-color: $section1-color;
@@ -46,7 +47,7 @@
 
 .second,
 .third,{
-    height: 700px;
+    height: 800px;
     background-color: $section2-color;
     display: flex;
     justify-content: center;
@@ -81,6 +82,7 @@
         .single-image{
             height: 250px;
             width: 300px;
+            margin-bottom: 100px;
             img{
                 height: 250px;
                 object-fit: contain;
@@ -147,6 +149,10 @@
             .profile-team-name{
                 width: 150px;
                 float: left;
+                margin-top: 15px;
+                .name{
+                    color: $btn-first-color;
+                }
             }
         }
         .button-bottom{

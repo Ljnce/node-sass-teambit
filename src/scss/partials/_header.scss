@@ -1,7 +1,7 @@
 header{
     #navbar{
         height: 70px;
-        width: 1300px;
+        width: 100vw;
         background-color: $section1-color;
         border: 1px solid #ededed;
         border-style: hidden hidden solid hidden;
@@ -10,7 +10,6 @@ header{
         justify-content: space-between;
         position: fixed;
         top:0;
-        width: 100%;
         .left{
             width: 60%;
         }
