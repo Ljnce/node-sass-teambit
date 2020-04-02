@@ -8,6 +8,8 @@
   color: #58402c;
 }
 
+/* Common */
+
 .btn,
 .btn-two,
 .btn-nav {
@@ -150,7 +152,7 @@ header #navbar .right ul li {
 /* MAIN */
 
 .first {
-  height: 600px;
+  height: 700px;
   width: 100vw;
   display: flex;
   flex-direction: row;
@@ -217,8 +219,8 @@ header #navbar .right ul li {
   height: 800px;
   background-color: #ffe7d2;
   display: flex;
-  justify-content: center;
   align-items: center;
+  justify-content: center;
 }
 
 .second .second-container,
@@ -246,8 +248,8 @@ header #navbar .right ul li {
   height: 250px;
   width: 700px;
   display: flex;
-  justify-content: center;
   align-items: center;
+  justify-content: center;
 }
 
 .second .second-container .three-image .image-with-text,
@@ -283,6 +285,7 @@ header #navbar .right ul li {
 .third .second-container .single-image img,
 .third .third-container .single-image img {
   height: 250px;
+  width: 250px;
   -o-object-fit: contain;
      object-fit: contain;
 }
@@ -293,7 +296,7 @@ header #navbar .right ul li {
 }
 
 .fourth {
-  height: 600px;
+  height: 700px;
   display: flex;
   align-items: center;
   background-color: white;
@@ -344,8 +347,8 @@ header #navbar .right ul li {
 .five {
   height: 700px;
   display: flex;
-  justify-content: center;
   align-items: center;
+  justify-content: center;
   background-color: #ffe7d2;
 }
 
@@ -355,8 +358,8 @@ header #navbar .right ul li {
 }
 
 .five .container-five .virgolette {
-  width: 60px;
   height: 60px;
+  width: 60px;
   position: absolute;
 }
 

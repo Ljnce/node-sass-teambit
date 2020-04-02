@@ -1,5 +1,5 @@
 .first{
-    height: 600px;
+    @include height();
     width: 100vw;
     display: flex;
     flex-direction: row;
@@ -34,24 +34,18 @@
     }
     .right-first{
         width: $first-width;
-        display: flex;
-        align-items: center;
-        justify-content: center;
+        @include centerPosition();
         img{
-            height: 600px;
-            width: 600px;
-            object-fit: contain;
+            @include image(600px, contain);
         }
     }
 }
 
 .second,
 .third,{
-    height: 800px;
+    @include height(800px);
     background-color: $section2-color;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    @include centerPosition();
     .second-container,
     .third-container{
         width:1000px;
@@ -63,29 +57,22 @@
             font-size: $font-sizeh3;
         }
         .three-image{
-            height: 250px;
-            width: 700px;
-            display: flex;
-            justify-content: center;
-            align-items: center;
+            @include sizes(250px, 700px);
+            @include centerPosition();
             .image-with-text{
                 width:200px;
                 display: flex;
                 flex-direction: column;
                 img{
-                    height: 150px;
-                    width: 150px;
-                    object-fit: contain;
+                    @include image(150px, contain);
                 }
             }
         }
         .single-image{
-            height: 250px;
-            width: 300px;
+            @include sizes(250px, 300px);
             margin-bottom: 100px;
             img{
-                height: 250px;
-                object-fit: contain;
+                @include image(250px, contain);
             }
         }
     }
@@ -95,7 +82,7 @@
 }
 
 .fourth{
-    height: 600px;
+    @include height();
     display: flex;
     align-items: center;
     background-color: $section1-color;
@@ -107,9 +94,7 @@
         .image-data{
             width: 50%;
             img{
-                height: 600px;
-                width: 600px;
-                object-fit: contain;
+                @include image(600px, contain);
             }
         }
         .text{
@@ -125,19 +110,15 @@
                 float: left;
             }
             img{
-                height: 250px;
-                width: 250px;
-                object-fit: contain;
+                @include image(250px, contain);
             }
         }
     }
 }
 
 .five{
-    height: 700px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    @include height();
+    @include centerPosition();
     background-color: $section2-color;
     .container-five{
         h2{
@@ -145,13 +126,11 @@
             text-align: center;
         }
         .virgolette{
-            width: 60px;
-            height: 60px;
+            @include sizes(60px, 60px);
             position: absolute;
         }
         .empty-container{
-            height: 380px;
-            width: 600px;
+            @include sizes(380px, 600px);
             background-color: $section1-color;
             border: 1px solid $border-color;
             border-radius: 10px;
@@ -162,9 +141,7 @@
                 width: 150px;
                 float: left;
                 img{
-                    height: 50px;
-                    width: 50px;
-                    object-fit: contain;
+                    @include image(50px, contain);
                     margin-top: 20px;
                     margin-left: 5px;
                 }

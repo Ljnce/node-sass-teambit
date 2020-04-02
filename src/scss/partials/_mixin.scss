@@ -1,1 +1,20 @@
+@mixin image($size, $object){
+    height:$size;
+    width:$size;
+    object-fit: $object;
+}
 
+@mixin sizes($heig, $widt){
+    height:$heig;
+    width:$widt;
+}
+
+@mixin height($height: 700px){
+    height: $height;
+}
+
+@mixin centerPosition($display:flex, $align:center, $justify:center){
+    display: $display;
+    align-items: $align;
+    justify-content: $justify;
+}
