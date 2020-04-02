@@ -1,7 +1,6 @@
 header{
     #navbar{
-        height: 70px;
-        width: 100vw;
+        @include sizes(70px, 100vw);
         background-color: $section1-color;
         border: 1px solid #ededed;
         border-style: hidden hidden solid hidden;
