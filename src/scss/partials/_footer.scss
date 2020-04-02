@@ -1,0 +1,33 @@
+footer{
+    .our-choice{
+        height: 450px;
+        display: flex;
+        align-items: flex-start;
+        margin-top: 80px;
+        .teambit{
+            display: flex;
+            flex-wrap: nowrap;
+            justify-content: center;
+            width: $footer-width-left;
+            img{
+                width:100px;
+            }
+        }
+        .choice-list{
+            width: $footer-width-right;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            ul{
+                li{
+                    font-size: 15px;
+                    margin-bottom: 10px;
+                    &:first-child{
+                        font-weight: bold;
+                        font-size: 20px;
+                    }
+                }
+            }
+        }
+    }
+}

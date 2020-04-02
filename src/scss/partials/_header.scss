@@ -1,0 +1,30 @@
+header{
+    #navbar{
+        height: 70px;
+        width: 1300px;
+        background-color: $section1-color;
+        border: 1px solid #ededed;
+        border-style: hidden hidden solid hidden;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        position: fixed;
+        top:0;
+        width: 100%;
+        .left{
+            width: 60%;
+        }
+        .right{
+            width: 40%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            ul{
+                li{
+                    display: inline-block;
+                    margin-left: 30px;
+                }
+            }
+        }
+    }
+}

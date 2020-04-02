@@ -1,0 +1,401 @@
+* {
+  margin: 0 auto;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat";
+  color: #58402c;
+}
+
+.btn,
+.btn-two,
+.btn-nav {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: center;
+  height: 40px;
+  width: 100px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.btn i,
+.btn-two i,
+.btn-nav i {
+  margin-right: 10px;
+}
+
+.btn p,
+.btn-two p,
+.btn-nav p {
+  color: #30488f;
+}
+
+.btn-nav {
+  border: 1px solid black;
+}
+
+.btn-nav:hover {
+  background-color: #30488f;
+}
+
+.btn-nav:hover p,
+.btn-nav:hover i {
+  color: white;
+}
+
+.btn-two {
+  background-color: #30488f;
+}
+
+.btn-two p,
+.btn-two i {
+  color: white;
+}
+
+.btn-two:hover {
+  background-color: #0e2055;
+}
+
+ul {
+  list-style: none;
+}
+
+ul li {
+  cursor: pointer;
+}
+
+ul li:hover {
+  color: blue;
+}
+
+.image-data img {
+  height: 680px;
+  width: 680px;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+.image-data .image-sx {
+  padding-right: 100px;
+}
+
+.image-data .image-dx {
+  margin-left: 130px;
+}
+
+.learn {
+  cursor: pointer;
+  color: #30488f;
+}
+
+.learn:hover {
+  color: #0e2055;
+}
+
+.single-image {
+  margin-bottom: 40px;
+}
+
+.fourth-container h2 {
+  font-size: 40px;
+}
+
+.fourth-container h2,
+.fourth-container h3,
+.fourth-container h4 {
+  margin-bottom: 20px;
+}
+
+/* HEADER */
+
+header #navbar {
+  height: 70px;
+  width: 1300px;
+  background-color: white;
+  border: 1px solid #ededed;
+  border-style: hidden hidden solid hidden;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+header #navbar .left {
+  width: 60%;
+}
+
+header #navbar .right {
+  width: 40%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header #navbar .right ul li {
+  display: inline-block;
+  margin-left: 30px;
+}
+
+/* MAIN */
+
+.first {
+  height: 600px;
+  display: flex;
+  flex-direction: row;
+  background-color: white;
+  margin-top: 50px;
+}
+
+.first .left-first {
+  width: 650px;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+
+.first .left-first h1 {
+  font-size: 50px;
+}
+
+.first .left-first h5 {
+  font-size: 30px;
+}
+
+.first .left-first .button {
+  display: flex;
+  flex-direction: row;
+}
+
+.first .left-first .button .btn,
+.first .left-first .button .btn-nav,
+.first .left-first .button .btn-two {
+  margin: 0 20px;
+}
+
+.first .left-first .button .btn i,
+.first .left-first .button .btn-nav i,
+.first .left-first .button .btn-two i,
+.first .left-first .button .btn p,
+.first .left-first .button .btn-nav p,
+.first .left-first .button .btn-two p {
+  color: white;
+}
+
+.first .left-first .email-top {
+  width: 600px;
+}
+
+.first .right-first {
+  width: 650px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.first .right-first img {
+  height: 600px;
+  width: 600px;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+.second,
+.third {
+  height: 700px;
+  background-color: #ffe7d2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.second .second-container,
+.second .third-container,
+.third .second-container,
+.third .third-container {
+  width: 1000px;
+  border: 1px solid #30488f;
+  border-style: hidden hidden solid hidden;
+  text-align: center;
+  padding-bottom: 50px;
+}
+
+.second .second-container h3,
+.second .third-container h3,
+.third .second-container h3,
+.third .third-container h3 {
+  font-size: 38px;
+}
+
+.second .second-container .three-image,
+.second .third-container .three-image,
+.third .second-container .three-image,
+.third .third-container .three-image {
+  height: 250px;
+  width: 700px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.second .second-container .three-image .image-with-text,
+.second .third-container .three-image .image-with-text,
+.third .second-container .three-image .image-with-text,
+.third .third-container .three-image .image-with-text {
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+}
+
+.second .second-container .three-image .image-with-text img,
+.second .third-container .three-image .image-with-text img,
+.third .second-container .three-image .image-with-text img,
+.third .third-container .three-image .image-with-text img {
+  height: 150px;
+  width: 150px;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+.second .second-container .single-image,
+.second .third-container .single-image,
+.third .second-container .single-image,
+.third .third-container .single-image {
+  height: 250px;
+  width: 300px;
+}
+
+.second .second-container .single-image img,
+.second .third-container .single-image img,
+.third .second-container .single-image img,
+.third .third-container .single-image img {
+  height: 250px;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+.second .third-container,
+.third .third-container {
+  border-style: hidden hidden hidden hidden;
+}
+
+.fourth-sx {
+  height: 600px;
+  display: flex;
+  align-items: center;
+}
+
+.fourth-sx .fourth-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.fourth-sx .fourth-container .image-data {
+  width: 50%;
+}
+
+.fourth-sx .fourth-container .text {
+  width: 50%;
+}
+
+.fourth-sx .fourth-container .text img {
+  height: 300px;
+  width: 300px;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+.five {
+  height: 700px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffe7d2;
+}
+
+.five .container-five h2 {
+  font-size: 40px;
+}
+
+.five .container-five .empty-container {
+  height: 380px;
+  width: 500px;
+  background-color: white;
+  border: 1px solid #30488f;
+  border-radius: 10px;
+  padding: 20px 20px;
+  font-size: 16px;
+  margin: 30px 0;
+}
+
+.five .container-five .empty-container .profile-team {
+  width: 150px;
+  float: left;
+}
+
+.five .container-five .empty-container .profile-team img {
+  height: 50px;
+  width: 50px;
+  -o-object-fit: contain;
+     object-fit: contain;
+  margin-top: 20px;
+  margin-left: 5px;
+}
+
+.five .container-five .empty-container .profile-team-name {
+  width: 150px;
+  float: left;
+}
+
+.five .container-five .button-bottom {
+  width: 300px;
+  display: flex;
+  flex-direction: row;
+}
+
+.five .container-five .bottom-email {
+  text-align: center;
+  margin-top: 20px;
+}
+
+/* FOOTER */
+
+footer .our-choice {
+  height: 450px;
+  display: flex;
+  align-items: flex-start;
+  margin-top: 80px;
+}
+
+footer .our-choice .teambit {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  width: 400px;
+}
+
+footer .our-choice .teambit img {
+  width: 100px;
+}
+
+footer .our-choice .choice-list {
+  width: 900px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+footer .our-choice .choice-list ul li {
+  font-size: 15px;
+  margin-bottom: 10px;
+}
+
+footer .our-choice .choice-list ul li:first-child {
+  font-weight: bold;
+  font-size: 20px;
+}
+
