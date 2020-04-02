@@ -94,22 +94,39 @@
     }
 }
 
-.fourth-sx{
+.fourth{
     height: 600px;
     display: flex;
     align-items: center;
+    background-color: $section1-color;
     .fourth-container{
         display: flex;
         flex-direction: row;
         align-items: center;
+        width: 1300px;
         .image-data{
             width: 50%;
+            img{
+                height: 600px;
+                width: 600px;
+                object-fit: contain;
+            }
         }
         .text{
             width: 50%;
+            .sx,
+            .dx{
+                width: 400px;
+            }
+            .sx{
+                float:right;
+            }
+            .dx{
+                float: left;
+            }
             img{
-                height: 300px;
-                width: 300px;
+                height: 250px;
+                width: 250px;
                 object-fit: contain;
             }
         }

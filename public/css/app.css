@@ -79,14 +79,6 @@ ul li:hover {
      object-fit: contain;
 }
 
-.image-data .image-sx {
-  padding-right: 100px;
-}
-
-.image-data .image-dx {
-  margin-left: 130px;
-}
-
 .learn {
   cursor: pointer;
   color: #30488f;
@@ -127,15 +119,13 @@ ul li:hover {
 
 header #navbar {
   height: 70px;
-  width: 100vw;
+  width: 1300px;
   background-color: white;
   border: 1px solid #ededed;
   border-style: hidden hidden solid hidden;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  position: fixed;
-  top: 0;
 }
 
 header #navbar .left {
@@ -299,29 +289,51 @@ header #navbar .right ul li {
   border-style: hidden hidden hidden hidden;
 }
 
-.fourth-sx {
+.fourth {
   height: 600px;
   display: flex;
   align-items: center;
+  background-color: white;
 }
 
-.fourth-sx .fourth-container {
+.fourth .fourth-container {
   display: flex;
   flex-direction: row;
   align-items: center;
+  width: 1300px;
 }
 
-.fourth-sx .fourth-container .image-data {
+.fourth .fourth-container .image-data {
   width: 50%;
 }
 
-.fourth-sx .fourth-container .text {
+.fourth .fourth-container .image-data img {
+  height: 600px;
+  width: 600px;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+.fourth .fourth-container .text {
   width: 50%;
 }
 
-.fourth-sx .fourth-container .text img {
-  height: 300px;
-  width: 300px;
+.fourth .fourth-container .text .sx,
+.fourth .fourth-container .text .dx {
+  width: 400px;
+}
+
+.fourth .fourth-container .text .sx {
+  float: right;
+}
+
+.fourth .fourth-container .text .dx {
+  float: left;
+}
+
+.fourth .fourth-container .text img {
+  height: 250px;
+  width: 250px;
   -o-object-fit: contain;
      object-fit: contain;
 }
